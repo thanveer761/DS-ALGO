@@ -7,7 +7,8 @@ import org.junit.Test;
 public class MoveZeros {
 
 	@Test
-	public void testData1() {
+	
+	public void testData2() {
 		int[] nums= {0,1,0,3,12};
 		int[] moveZeros = moveZeros(nums);
 		System.out.println(Arrays.toString(moveZeros));
